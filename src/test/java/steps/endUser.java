@@ -9,12 +9,12 @@ public class endUser {
     loginPage pageObj;
 
     @Step
-    public void openUrl(){
+    public void openUrl()throws Throwable{
         pageObj.goToUrl();
     }
 
     @Step
-    public void Login(){
+    public void Login()throws Throwable{
         pageObj.getLogin();
     }
 
