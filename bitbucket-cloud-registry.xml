@@ -1,7 +1,0 @@
-<application>
-  <component name="BitbucketCloudRegistry">
-    <lookup>
-      <record scheme="https" hostname="github.com" port="-1" instance="Production" />
-    </lookup>
-  </component>
-</application>
